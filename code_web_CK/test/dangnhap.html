@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập và Đăng ký</title>
+    <link rel="stylesheet" href="dangnhap.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Đăng nhập</h1>
+      <form action="login.php" method="post">
+        <label for="username">Tên đăng nhập:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Đăng nhập">
+
+        <button onclick="location.href='dangki.html'">Đăng kí</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
